@@ -4,7 +4,7 @@ icon: "/assets/img/briefcase.svg"
 contents:
   - title: Siam Commercial Bank (SCB)
     role: Software Engineer
-    project: electronic presentment and payment (EPPD) system
+    project: Project electronic presentment and payment (EPPD) system
     description:
       - Developed and maintained banking applications using Java, Spring Boot, Kafka, and microservices.
       - Optimized performance and improved security of critical backend services.
@@ -13,7 +13,7 @@ contents:
     date: Jan 2023 - Present
   - title: Hitachi Vantara (Thailand) Ltd.
     role: Full Stack Developer
-    project: electronic presentment and payment (EPPD) system
+    project: Project electronic presentment and payment (EPPD) system
     description: 
       - Built and maintained backend services for an electronic presentment and payment (EPPD) system.
       - Worked in event-driven architecture using Kafka.
