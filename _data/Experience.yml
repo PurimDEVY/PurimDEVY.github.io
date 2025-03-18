@@ -21,13 +21,13 @@ contents:
   - title: Azure Computers Thailand
     role: Full Stack Developer
     description: 
-      Project ME by TTB (Mobile App & Web)
-      - Provided hotfixes and change requests for Internet Banking applications.
-      - Built mobile applications using Ionic 1, Cordova, Xcode 11.
-      - Troubleshot and resolved production issues effectively.
-      Project TTB Touch
-      - Developed and maintained backend services using Kony.
-      - Worked closely with Business Analysts (BA) to refine business requirements.
+      - Project ME by TTB (Mobile App & Web)
+          - Provided hotfixes and change requests for Internet Banking applications.
+          - Built mobile applications using Ionic 1, Cordova, Xcode 11.
+          - Troubleshot and resolved production issues effectively.
+      - Project TTB Touch
+          - Developed and maintained backend services using Kony.
+          - Worked closely with Business Analysts (BA) to refine business requirements.
     date: Jan 2021 - Jan 2022
   - title: Allianz Technology Thailand
     role: Backend Developer
