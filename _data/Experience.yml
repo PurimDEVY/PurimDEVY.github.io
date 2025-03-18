@@ -1,22 +1,40 @@
 subject: Experiences
-listing-order: 2
+listing-order: 1
 icon: "/assets/img/briefcase.svg"
 contents:
-  - title: Nanosoft
-    role: Project Manager
+  - title: Siam Commercial Bank (SCB)
+    role: Software Engineer
     description:
-      - Led development of a new chatbot software utilizing large language model
-      - Co-designer of '*Kopilot*' and '*Gemmini*'
-    date: Jan. 2024 - Ongoing
-  - title: Amazone
-    role: Senior Software Engineer
+      - Developed and maintained banking applications using Java, Spring Boot, Kafka, and microservices.
+      - Optimized performance and improved security of critical backend services.
+      - Collaborated with cross-functional teams to support Dev, SIT, UAT, and Production environments.
+      - Implemented and monitoring solutions to enhance system reliability.
+    date: Jan 2023 - Present
+  - title: Hitachi Vantara (Thailand) Ltd.
+    role: Full Stack Developer
     description: 
-      - Built a Java microservice, database schema to manage customer accounts
-      - Enhanced internal pipelines to query real-time data from client devices
-    date: Apr. 2016 - Dec. 2018
-  - title: Pacebook
-    role: Software Engineer Intern
+      - Built and maintained backend services for an electronic presentment and payment (EPPD) system.
+      - Worked in event-driven architecture using Kafka.
+      - Developed microservices under Agile methodology.
+      - Designed and implemented secure authentication and authorization mechanisms.
+    date: Jan 2022 - Jan 2023
+  - title: Azure Computers Thailand
+    role: Full Stack Developer
     description: 
-      - Designed the dynamic website using React for data visualization
-      - Integrated '*Yolo*' to boost the accuracy of the object detection
-    date: Jul. 2013 - Sep. 2013
+      Project ME by TTB (Mobile App & Web)
+      - Provided hotfixes and change requests for Internet Banking applications.
+      - Built mobile applications using Ionic 1, Cordova, Xcode 11.
+      - Troubleshot and resolved production issues effectively.
+      Project TTB Touch
+      - Developed and maintained backend services using Kony.
+      - Worked closely with Business Analysts (BA) to refine business requirements.
+    date: Jan 2021 - Jan 2022
+  - title: Allianz Technology Thailand
+    role: Backend Developer
+    description: 
+      - Built an internal web application for insurance brokers in Germany.
+      - Developed frontend with Angular 7 and Ngrx (Redux state management).
+      - Implemented backend using Java 8-11, Spring Boot (microservices architecture).
+      - Participated in Agile Scrum team, collaborating closely with QA and Business Units.
+    date: July 2019 - Jan 2021
+    
