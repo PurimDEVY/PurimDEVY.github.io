@@ -128,6 +128,13 @@
                         </ul>
                       {% else %}
                         {{ item[1] | markdownify }}
+                        <ul>
+                          {% for subitem in item[1] %}
+                          <li class="subitem">
+                            {{ subitem | markdownify }}
+                          </li>
+                          {% endfor %}
+                        </ul>
                       {% endif %}
                     {% endif %}
                   {% endfor %}
