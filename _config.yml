@@ -1,114 +1,31 @@
-# Site
-repository: sproogen/resume-theme
-favicon: images/favicon.ico
+title: Title of your CV site
+profile_img: /assets/img/profile.webp
+icon_img: /assets/img/icon.webp
 
-# Content configuration version
-version: 2
+name: "Your Name Here"
+job: "〈Your Job Here〉"
 
-# Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+phone_number: 012-345-6789
+address: City, Country
+email: email@example.com
+linkedin_username: linkedin
+github_username: github
+instagram_username: instagram
+twitter_username: twitter
+facebook_username: facebook
+youtube_username: youtube
+blog_url: homepage-url
 
-# Dark Mode (true/false/never)
-darkmode: true
+# If your repo name follows the format "<user-name>.github.io", then leave the below blank.
+# Otherwise, set its value as "/<repo-name>". ex) baseurl: /resume
+baseurl:
 
-# Social links
-twitter_username: facespics
-github_username:  sproogen
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
-youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
-# Summary Section
-about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Dedicated and results-driven Full Stack Developer with experience in backend and frontend technologies, specializing in Java, Spring Boot, and microservices architecture. Passionate about delivering scalable, high-performance applications with a strong focus on security, performance, and maintainability.
-
-
-content:
-  - title: Experience
-    layout: list
-    content:
-      - layout: left
-        title: Siam Commercial Bank (SCB)
-        sub_title: Software Engineer
-        caption: Jan 2023 - Present | Bangkok, Thailand
-        description: |
-          **Project: Electronic Presentment and Payment (EPPD) System**
-          - Developed and maintained banking applications using Java, Spring Boot, Kafka, and microservices.
-          - Optimized performance and improved security of critical backend services.
-          - Collaborated with cross-functional teams to support Dev, SIT, UAT, and Production environments.
-          - Implemented logging and monitoring solutions to enhance system reliability.
-      - layout: left
-        title: Hitachi Vantara (Thailand) Ltd.
-        sub_title: Full Stack Developer
-        caption: Jan 2022 - Jan 2023 | Bangkok, Thailand
-        description: |
-          **Project: Electronic Presentment and Payment (EPPD) System**
-          - Built and maintained backend services for an electronic presentment and payment (EPPD) system.
-          - Worked in event-driven architecture using Kafka.
-          - Developed microservices under Agile methodology.
-          - Designed and implemented secure authentication and authorization mechanisms.
-      - layout: left
-        title: Azure Computers Thailand
-        sub_title: Full Stack Developer
-        caption: Jan 2021 - Jan 2022 | Bangkok, Thailand
-        description: |
-          **Project: ME by TTB (Mobile App & Web)**
-          - Provided hotfixes and change requests for Internet Banking applications.
-          - Built mobile applications using Ionic 1, Cordova, Xcode 11.
-          - Troubleshoot and resolved production issues effectively.
-
-          **Project: TTB Touch**
-          - Developed and maintained backend services using Kony.
-          - Worked closely with Business Analysts (BA) to refine business requirements.
-
-      - layout: left
-        title: Allianz Technology Thailand
-        sub_title: Backend Developer
-        caption: July 2019 - Jan 2021 | Bangkok, Thailand
-        description: |
-          **Project: Individual Life Belgium (Insurance System)**
-          - Built an internal web application for insurance brokers in Germany.
-          - Developed frontend with Angular 7 and Ngrx (Redux state management).
-          - Implemented backend using Java 8-11, Spring Boot (microservices architecture).
-          - Participated in Agile Scrum team, collaborating closely with QA and Business Units.
-
-# Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
-
-# Build settings
-remote_theme: sproogen/resume-theme
-
-sass:
-  sass_dir: _sass
-  style: compressed
+exclude:
+  - _posts/
+  - resources/
+  - vendor/
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
