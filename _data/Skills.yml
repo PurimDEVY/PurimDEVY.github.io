@@ -4,12 +4,29 @@ icon: "/assets/img/screwdriver-wrench.svg"
 contents:
   - title: Programming Languages
     description: "
-      ![devicon](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg)
-      ![devicon](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg)
-      ![devicon](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg)
-      ![devicon](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg)
-      ![devicon](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg)
-    "
+    <div class='skill-container'>
+      <div class='skill-item'>
+        <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg' alt='Java'/>
+        <div class='skill-overlay'>Java</div>
+      </div>
+      <div class='skill-item'>
+        <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg' alt='JavaScript'/>
+        <div class='skill-overlay'>JavaScript</div>
+      </div>
+      <div class='skill-item'>
+        <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg' alt='TypeScript'/>
+        <div class='skill-overlay'>TypeScript</div>
+      </div>
+      <div class='skill-item'>
+        <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg' alt='PowerShell'/>
+        <div class='skill-overlay'>PowerShell</div>
+      </div>
+      <div class='skill-item'>
+        <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg' alt='Python'/>
+        <div class='skill-overlay'>Python</div>
+      </div>
+    </div>
+  "
   - title: Frameworks & Platforms
     description: "
       ![devicon](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg)
