@@ -2,31 +2,24 @@ subject: Experiences
 listing-order: 1
 icon: "/assets/img/briefcase.svg"
 contents:
-  - title: Siam Commercial Bank (SCB)
-    role: Software Engineer
+  - title: Siam Commercial Bank / Hitachi Vantara (Thailand) Ltd.
+    role: Software Engineer / Full Stack Developer 
     project: Project electronic presentment and payment (EPPD) system
     description:
-      - Developed and maintained banking applications using Java, Spring Boot, Kafka, and microservices.
-      - Optimized performance and improved security of critical backend services.
-      - Collaborated with cross-functional teams to support Dev, SIT, UAT, and Production environments.
-      - Implemented and monitoring solutions to enhance system reliability.
-    date: Jan 2023 - Present
-  - title: Hitachi Vantara (Thailand) Ltd.
-    role: Full Stack Developer
-    project: Project electronic presentment and payment (EPPD) system
-    description: 
-      - Built and maintained backend services for an electronic presentment and payment (EPPD) system.
-      - Worked in event-driven architecture using Kafka.
-      - Developed microservices under Agile methodology.
-      - Designed and implemented secure authentication and authorization mechanisms.
-    date: Jan 2022 - Jan 2023
+      - Developed and maintained the EPPD system, supporting 70+ billers and 300+ buyers.
+      - Managed over 27 backend services and 30+ batch jobs using Java, Spring Boot, Kafka, and microservices architecture.
+      - Enhanced system performance and security through collaboration with external experts from SEC Consult.
+      - Followed Agile methodology and worked within an event-driven architecture for scalable and resilient services.
+      - Implemented secure authentication and authorization to protect sensitive financial data.
+      - Supported all SDLC stages (Dev, SIT, UAT, Production) through cross-functional collaboration.
+      - Improved system reliability through robust monitoring, alerting, and observability solutions.
+    date: Jan 2022 – Present
   - title: Azure Computers Thailand
     role: Full Stack Developer
     project: Project ME by TTB (Mobile App & Web)
     description: 
-      - Provided hotfixes and change requests for Internet Banking applications.
-      - Built mobile applications using Ionic 1, Cordova, Xcode 11.
-      - Troubleshot and resolved production issues effectively.
+      - Responsible for supporting production issues and implementing change requests for the Me by TTB application until the service was officially discontinued.
+      - Solely in charge of the frontend side, including production support, handling change requests, and building deliverable images for clients.
     project2: Project TTB Touch
     description2:
       - Developed and maintained backend services using Kony.
